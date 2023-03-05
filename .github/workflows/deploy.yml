@@ -13,10 +13,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x]
-
     steps:
       - uses: a7ul/tar-action@v1.1.0
         with:
